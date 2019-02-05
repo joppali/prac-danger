@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "danger": "danger"
+    "danger": "danger ci"
   },
   "devDependencies": {
     "danger": "^7.0.7"
