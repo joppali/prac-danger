@@ -7,7 +7,10 @@ jobs:
       environment:
         DANGER_GITHUB_API_TOKEN: a871aeacae4a6444cc96760002ae238cb9eef3f5
 
-    step:
+    steps:
       - run:
         name: hoge
+        command: echo hoge
+      - run:
+        name: fuga
         command: npm run danger
