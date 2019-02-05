@@ -1,12 +1,11 @@
 version: 2
 jobs:
-  build:
-    machine:
-      node:
-        version: v11.1.0
-      environment:
-        DANGER_GITHUB_API_TOKEN: a871aeacae4a6444cc96760002ae238cb9eef3f5
+  machine:
+    node:
+      version: v11.1.0
+    environment:
+      DANGER_GITHUB_API_TOKEN: a871aeacae4a6444cc96760002ae238cb9eef3f5
 
-      test:
-        override:
-          - npm run danger
+    test:
+      override:
+        - npm run danger
