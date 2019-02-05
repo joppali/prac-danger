@@ -6,5 +6,4 @@ const { danger, warn, message } = require('danger');
 // }
 
 message('hello danger');
-danger('hello danger');
 warn('hello danger');
