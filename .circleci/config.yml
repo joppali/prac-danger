@@ -8,5 +8,6 @@ jobs:
         DANGER_GITHUB_API_TOKEN: a871aeacae4a6444cc96760002ae238cb9eef3f5
 
     steps:
-      run:
+      - run:
+        name: hoge
         command: npm run danger
