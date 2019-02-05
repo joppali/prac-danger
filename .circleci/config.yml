@@ -9,8 +9,8 @@ jobs:
 
     steps:
       - run:
-        name: hoge
-        command: echo hoge
+          name: hoge
+          command: echo hoge
       - run:
-        name: fuga
-        command: npm run danger
+          name: fuga
+          command: npm run danger
