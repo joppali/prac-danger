@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: hoge
-          command: echo fuga
+          command: echo fhoge
       - run:
           name: fuga
           command: |
