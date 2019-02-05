@@ -5,5 +5,5 @@ const { danger, warn, message } = require('danger');
 //   warn('Please include a description of your PR changes.');
 // }
 
-message('hello danger');
+message('hello message');
 warn('hello warn');
